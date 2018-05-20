@@ -28,7 +28,7 @@ export class AboutPage {
         }
       }, {
         "id": "3",
-        "name": "黄瓜",
+        "name": "香蕉",
         "property": {
           "name": "huanggua",
           "location": "hangzhou"
