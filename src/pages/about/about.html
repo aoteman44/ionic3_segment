@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div padding>
+    <ion-segment [(ngModel)]="pet" (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="{{item?.id}}" *ngFor="let item of list">
+        {{item?.name}}
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <svg width="100%"></svg>
+</ion-content>
